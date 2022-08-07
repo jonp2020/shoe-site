@@ -23,4 +23,9 @@ describe("/api/", () => {
       const response = await request(app).get("/api/shoes/kids").expect(200);
     });
   });
+  describe("GET /api/shoes/kidzzz", () => {
+    test("should respond with a 404 status code", async () => {
+      const response = await request(app).get("/api/shoes/kidzzz").expect(404);
+    });
+  });
 });
