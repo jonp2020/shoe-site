@@ -6,9 +6,10 @@ const {
   getMensShoes,
   getKidsShoes,
   updateShoe,
+  postShoe,
 } = require("../controllers/shoesController");
 
-router.get("/", getAllShoes);
+router.route("/").get(getAllShoes).post(postShoe);
 
 router.put("/:id", updateShoe);
 
