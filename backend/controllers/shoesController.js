@@ -3,7 +3,9 @@ const Shoe = require("../models/shoeModel");
 
 // route GET /api/shoes
 const getAllShoes = asyncHandler(async (req, res) => {
-  const shoes = await res.status(200).json({ msg: "Get all shoes" });
+  const shoes = await Shoe.find();
+
+  res.status(200).json(shoes);
 });
 
 // route POST /api/shoes
@@ -37,17 +39,23 @@ const postShoe = asyncHandler(async (req, res) => {
 
 // route GET /api/shoes/womens
 const getWomensShoes = asyncHandler(async (req, res) => {
-  res.status(200).json({ msg: "Get womens shoes" });
+  const shoes = await Shoe.find({ gender: "WOMEN" });
+
+  res.status(200).json(shoes);
 });
 
 // route GET /api/shoes/mens
 const getMensShoes = asyncHandler(async (req, res) => {
-  res.status(200).json({ msg: "Get mens shoes" });
+  const shoes = await Shoe.find({ gender: "MEN" });
+
+  res.status(200).json(shoes);
 });
 
 // route GET /api/shoes/mens
 const getKidsShoes = asyncHandler(async (req, res) => {
-  res.status(200).json({ msg: "Get kids shoes" });
+  const shoes = await Shoe.find({ gender: "KIDS" });
+
+  res.status(200).json(shoes);
 });
 
 // route PUT /api/shoes/:id
