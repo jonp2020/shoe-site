@@ -4,6 +4,8 @@ import WomensShoes from "../views/WomensShoes.vue";
 import MensShoes from "../views/MensShoes.vue";
 import KidsShoes from "../views/KidsShoes.vue";
 import ShoppingCart from "../views/ShoppingCart.vue";
+import IndividualShoeCard from "../components/IndividualShoeCard.vue";
+import PageNotFound from "../components/PageNotFound.vue";
 
 const routes = [
   {
@@ -27,9 +29,20 @@ const routes = [
     component: KidsShoes,
   },
   {
+    path: "/:slug",
+    name: "individualShoeCard",
+    component: IndividualShoeCard,
+    props: true,
+  },
+  {
     path: "/cart",
     name: "shoppingCart",
     component: ShoppingCart,
+  },
+  {
+    path: "/:catchAll(.*)*",
+    name: "notFound",
+    component: PageNotFound,
   },
 ];
 
