@@ -18,7 +18,7 @@
         /></router-link>
       </div>
     </transition>
-    <div>
+    <div class="small-img-container">
       <img
         v-for="(img, index) in smallImagesToDisplay"
         class="small-shoe-img"
@@ -50,6 +50,7 @@
         {{ colourIndex === displayShoeColours.length - 1 ? "" : " | " }}
       </span>
     </p>
+    <hr />
   </div>
 </template>
 
@@ -123,6 +124,10 @@ export default {
 
 .highlightColour {
   font-weight: 900;
+}
+
+.small-img-container {
+  margin-top: 0.5rem;
 }
 
 .small-shoe-img {

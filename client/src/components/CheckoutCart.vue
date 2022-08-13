@@ -15,30 +15,82 @@
       </li>
     </ul>
 
-    <DeliveryDetails v-if="!deliveryCompleted" />
+    <DeliveryDetails
+      v-if="!deliveryCompleted"
+      @deliveryAddress="addressComplete($event)"
+    />
     <PaymentDetails
-      v-if="deliveryCompleted && !paymentCompleted && confirmationCompleted"
+      v-if="deliveryCompleted && !paymentCompleted && !confirmationCompleted"
+      :orderingLoading="paymentOrderingLoading"
+      @paymentConfirmed="paymentDetailsComplete($event)"
     />
     <ConfirmationDetails
-      v-if="deliveryCompleted && paymentCompleted && !confirmationCompleted"
+      v-if="deliveryCompleted && paymentCompleted && confirmationCompleted"
+      :orderRef="completedOrderRef"
     />
+    <ErrorMessage v-if="errorMsg" />
   </section>
 </template>
 
 <script>
+import axios from "axios";
 import DeliveryDetails from "./DeliveryDetails";
 import PaymentDetails from "./PaymentDetails";
 import ConfirmationDetails from "./ConfirmationDetails";
+import ErrorMessage from "./ErrorMessage";
 
 export default {
-  components: { DeliveryDetails, PaymentDetails, ConfirmationDetails },
+  components: {
+    DeliveryDetails,
+    PaymentDetails,
+    ConfirmationDetails,
+    ErrorMessage,
+  },
   props: [""],
   data() {
     return {
       deliveryCompleted: false,
       paymentCompleted: false,
       confirmationCompleted: false,
+      completedAddressInfo: {},
+      paymentOrderingLoading: false,
+      errorMsg: null,
+      completedOrderRef: null,
     };
+  },
+  methods: {
+    addressComplete(address) {
+      this.completedAddressInfo = address;
+      this.deliveryCompleted = true;
+    },
+    async paymentDetailsComplete(paymentData) {
+      console.log("here in payment");
+      this.paymentOrderingLoading = true;
+      const paymentInfo = paymentData;
+
+      const url = "http://localhost:4000/api/shoes/place-order";
+
+      const data = await axios.post(url, {
+        deliveryAddress: this.completedAddressInfo,
+        paymentDetails: paymentInfo,
+        orderDetails: this.$store.getters.getBasketItems,
+      });
+
+      if (data.status === 200) {
+        console.log("data", data);
+        this.$store.state.resetBasket;
+
+        this.paymentOrderingLoading = false;
+
+        this.paymentCompleted = true;
+
+        this.completedOrderRef = data.data.refId;
+        this.confirmationCompleted = true;
+      } else {
+        this.errorMsg =
+          "There has been an error. Please contact us 07707 777333.";
+      }
+    },
   },
 };
 </script>

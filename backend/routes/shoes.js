@@ -7,6 +7,7 @@ const {
   getKidsShoes,
   updateShoe,
   postShoe,
+  placeOrder,
 } = require("../controllers/shoesController");
 
 router.route("/").get(getAllShoes).post(postShoe);
@@ -18,5 +19,7 @@ router.get("/womens", getWomensShoes);
 router.get("/mens", getMensShoes);
 
 router.get("/kids", getKidsShoes);
+
+router.post("/place-order", placeOrder);
 
 module.exports = router;

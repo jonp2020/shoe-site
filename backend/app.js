@@ -9,6 +9,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.use("/api/shoes", require("./routes/shoes"));
+app.use("/api/track-orders", require("./routes/trackOrders"));
+
 app.all("/*", handleInvalidPath);
 
 module.exports = app;

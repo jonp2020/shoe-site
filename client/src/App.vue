@@ -1,4 +1,9 @@
 <template>
+  <div class="top-level-nav">
+    <router-link to="/track-orders" class="track-items-link">
+      <i class="fa-solid fa-truck"></i> Track Orders</router-link
+    >
+  </div>
   <nav class="nav-bar">
     <router-link to="/">
       <div class="brand_name_text">Golden <br />Shoe</div>
@@ -8,10 +13,25 @@
     <router-link to="/kids">Kids</router-link>
     <router-link to="/cart"
       ><i class="fa-solid fa-cart-shopping"></i
-    ></router-link>
+      ><span :class="{ numOfCartItems: numOfCartItems > 0 }">{{
+        numOfCartItems > 0 ? numOfCartItems : null
+      }}</span></router-link
+    >
   </nav>
   <router-view />
 </template>
+
+<script>
+export default {
+  computed: {
+    numOfCartItems() {
+      return this.$store.getters.getBasketItems
+        ? this.$store.getters.getBasketItems.length
+        : null;
+    },
+  },
+};
+</script>
 
 <style>
 body {
@@ -56,5 +76,30 @@ nav a.router-link-exact-active {
   color: orange;
   font-weight: 900;
   font-size: 1.5rem;
+}
+
+.numOfCartItems {
+  border-radius: 32px;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin-left: 0.3rem;
+}
+
+.top-level-nav {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0 0 0;
+  text-align: center;
+}
+.top-level-nav a {
+  color: black;
+  text-decoration: none;
+}
+.top-level-nav a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+.track-items-list {
+  color: black;
 }
 </style>

@@ -47,32 +47,49 @@
   </section>
   <section v-else>
     <h1 class="header-title">Your Items</h1>
+    <h4>Total: £{{ getTotalAmount }}</h4>
 
-    <button class="checkout-btn">Checkout Now</button>
+    <router-link to="/checkout">
+      <button class="checkout-btn">Checkout Now</button>
+    </router-link>
 
     <div class="cart-item-info-container">
-      <!-- <img class="shoe-img-for-cart" :src="" alt="" /> -->
-      <div class="cart-item-info-text">
-        <p class="cart-info-shoe-name">
-          <strong>Name</strong>
-        </p>
-        <p style="text-transform: capitalize">Colour: <strong></strong></p>
-        <p>Size: <strong></strong></p>
-        <p>
-          Price:
-          <strong>£</strong>
-        </p>
-        <p>Quantity: <strong></strong></p>
+      <div
+        class="cart-item-info-text"
+        v-for="(item, index) in cartItems"
+        :key="'shoeItem_' + index"
+      >
+        <div>
+          <img :src="item.shoeImage" alt="" class="shoe-cart-img" />
+        </div>
+        <div>
+          <p class="cart-info-shoe-name">
+            <strong>{{ item.shoeName }}</strong>
+          </p>
+          <p style="text-transform: capitalize">
+            Colour: <strong>{{ item.selectedColour }}</strong>
+          </p>
+          <p>
+            Size: <strong>{{ item.selectedSize.replace(/_/, ".") }}</strong>
+          </p>
+          <p>
+            Price:
+            <strong>£{{ item.pricePerPair }}</strong>
+          </p>
+          <p>
+            Quantity: <strong>{{ item.quantity }}</strong>
+          </p>
+        </div>
       </div>
     </div>
 
-    <p class="cart-info-total-price">
+    <h4 class="cart-info-total-price">
       Total:
-      <strong>£</strong>
-    </p>
-    <router-link to="/checkout"
-      ><button class="checkout-btn">Checkout Now</button></router-link
-    >
+      <strong>£{{ getTotalAmount }}</strong>
+    </h4>
+    <router-link to="/checkout">
+      <button class="checkout-btn">Checkout Now</button>
+    </router-link>
   </section>
 </template>
 
@@ -81,8 +98,20 @@ export default {
   props: [""],
   data() {
     return {
-      cartItems: ["check"],
+      cartItems: [],
     };
+  },
+  computed: {
+    getTotalAmount() {
+      if (!this.cartItems.length) return;
+
+      return this.cartItems.reduce((a, b) => a + b.total, 0);
+    },
+  },
+  mounted() {
+    this.cartItems = this.$store.getters.getBasketItems
+      ? this.$store.getters.getBasketItems
+      : [];
   },
 };
 </script>
@@ -132,8 +161,19 @@ export default {
   width: 80%;
 }
 
+.cart-item-info-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem auto;
+  border: 1px solid #000;
+}
+
 .checkout-btn {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.5rem;
   background-color: orange;
   border: 1px solid orange;
@@ -146,5 +186,10 @@ export default {
   background-color: #a7a5a1;
   border: 1px solid #a7a5a1;
   transition: 0.3s;
+}
+
+.shoe-cart-img {
+  width: 100%;
+  height: auto;
 }
 </style>

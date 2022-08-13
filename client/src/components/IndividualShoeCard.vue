@@ -64,7 +64,7 @@
             :title="!size[1] ? 'Out of stock' : `Size ${size[0]}`"
             @click="selectSize(size)"
           >
-            {{ size[0] }}
+            {{ size[0].replace(/_/, ".") }}
           </li>
         </ul>
       </div>
@@ -109,7 +109,8 @@
                 Colour: <strong>{{ basketItem.selectedColour }}</strong>
               </p>
               <p>
-                Size: <strong>{{ basketItem.selectedSize }}</strong>
+                Size:
+                <strong>{{ basketItem.selectedSize.replace(/_/, ".") }}</strong>
               </p>
               <p>
                 Price:
@@ -171,15 +172,20 @@ export default {
       if (!this.selectedSize)
         return (this.selectionMessage = "Please choose a size.");
 
-      this.basketItem.shoeId = this.parsedShoe._id;
-      this.basketItem.shoeName = this.parsedShoe.name;
-      this.basketItem.shoeBrand = this.parsedShoe.brand;
-      this.basketItem.selectedColour = this.selectedColour;
-      this.basketItem.selectedSize = this.selectedSize;
-      this.basketItem.pricePerPair = this.parsedShoe.price;
-      this.basketItem.quantity = this.selectedQuantity;
-      this.basketItem.shoeImage =
-        this.parsedShoe.imageURL[this.selectedColour][0];
+      const basket = {};
+
+      basket.shoeId = this.parsedShoe._id;
+      basket.shoeName = this.parsedShoe.name;
+      basket.shoeBrand = this.parsedShoe.brand;
+      basket.selectedColour = this.selectedColour;
+      basket.selectedSize = this.selectedSize;
+      basket.pricePerPair = this.parsedShoe.price;
+      basket.quantity = this.selectedQuantity;
+      basket.shoeImage = this.parsedShoe.imageURL[this.selectedColour][0];
+      basket.total = this.parsedShoe.price * this.selectedQuantity;
+
+      this.basketItem = basket;
+      this.$store.commit("addToBasket", basket);
 
       this.updatedCart = true;
     },
@@ -227,7 +233,15 @@ export default {
       );
 
       return sizes.sort((a, b) => {
-        return a[0] - b[0];
+        let prevVal = a[0];
+        let currentVal = b[0];
+        if (prevVal.indexOf("_") !== -1) {
+          prevVal = prevVal.replace(/_/g, ".");
+        }
+        if (currentVal.indexOf("_") !== -1) {
+          currentVal = currentVal.replace(/_/g, ".");
+        }
+        return prevVal - currentVal;
       });
     },
   },
@@ -311,8 +325,8 @@ export default {
   cursor: pointer;
 }
 .size-item {
-  padding: 2rem;
-  width: 2rem;
+  padding: 0.5rem;
+  width: 4rem;
   background-color: rgb(250, 183, 57);
   margin: 0.5rem;
   font-size: 1.2rem;
