@@ -1,21 +1,23 @@
 <template>
   <div v-if="shoe" class="shoe-card-container">
-    <div class="img-container">
-      <router-link
-        :to="{
-          name: 'individualShoeCard',
-          params: {
-            slug: `${getSlug}`,
-            shoe: JSON.stringify(shoe),
-          },
-        }"
-        :shoe="shoe"
-        ><img
-          class="main-shoe-img"
-          :src="shoeImageToDisplay"
-          alt="Main picture of shoe"
-      /></router-link>
-    </div>
+    <transition name="mainShoeImg" appear>
+      <div class="img-container">
+        <router-link
+          :to="{
+            name: 'individualShoeCard',
+            params: {
+              slug: `${getSlug}`,
+              shoe: JSON.stringify(shoe),
+            },
+          }"
+          :shoe="shoe"
+          ><img
+            class="main-shoe-img"
+            :src="shoeImageToDisplay"
+            alt="Main picture of shoe"
+        /></router-link>
+      </div>
+    </transition>
     <div>
       <img
         v-for="(img, index) in smallImagesToDisplay"

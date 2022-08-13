@@ -1,15 +1,17 @@
 <template>
-  <div class="">Shopping Cart</div>
+  <div class="">
+    <ShoppingCartItems />
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
+import ShoppingCartItems from "@/components/ShoppingCartItems.vue";
 
 export default {
   name: "shoppingCart",
   components: {
-    // HelloWorld,
+    ShoppingCartItems,
   },
 };
 </script>

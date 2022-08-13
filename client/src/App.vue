@@ -14,12 +14,16 @@
 </template>
 
 <style>
+body {
+  width: calc(100vw - 34px);
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  /* padding: calc(100vw - 100%); */
 }
 
 nav {
@@ -28,10 +32,18 @@ nav {
   justify-content: space-around;
 }
 
+.nav-bar {
+  /* width: 1400px; */
+  /* width: 100%; */
+}
+
 nav a {
   font-weight: bold;
   color: #2c3e50;
   text-decoration: none;
+}
+nav a:hover {
+  color: orangered;
 }
 
 nav a.router-link-exact-active {

@@ -1,6 +1,8 @@
 <template>
-  <div class="">
-    <DisplayShoes :shoes="shoes" :gender="gender" />
+  <div class="shoe-display-container" v-if="shoes">
+    <transition name="displayShoes">
+      <DisplayShoes :shoes="shoes" :gender="shoes[0].gender" />
+    </transition>
   </div>
 </template>
 
@@ -35,3 +37,8 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.shoe-display-container {
+}
+</style>

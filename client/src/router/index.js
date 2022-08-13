@@ -5,6 +5,7 @@ import MensShoes from "../views/MensShoes.vue";
 import KidsShoes from "../views/KidsShoes.vue";
 import ShoppingCart from "../views/ShoppingCart.vue";
 import IndividualShoeCard from "../components/IndividualShoeCard.vue";
+import CheckoutCart from "../components/CheckoutCart.vue";
 import PageNotFound from "../components/PageNotFound.vue";
 
 const routes = [
@@ -38,6 +39,11 @@ const routes = [
     path: "/cart",
     name: "shoppingCart",
     component: ShoppingCart,
+  },
+  {
+    path: "/checkout",
+    name: "CheckoutCart",
+    component: CheckoutCart,
   },
   {
     path: "/:catchAll(.*)*",

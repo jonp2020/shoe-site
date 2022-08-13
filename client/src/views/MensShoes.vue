@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <DisplayShoes :shoes="shoes" :gender="gender" />
+  <div class="" v-if="shoes">
+    <DisplayShoes :shoes="shoes" :gender="shoes[0].gender" />
   </div>
 </template>
 

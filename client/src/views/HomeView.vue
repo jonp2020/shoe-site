@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <section class="home">
     <div>
       <img
         class="header-banner-img"
@@ -10,10 +10,20 @@
         <p class="header-banner-text">
           Good shoes <br />take you <br />good places
         </p>
-        <button class="shop-cta-btn">Shop now</button>
+        <div class="home-page-cta-btn-container">
+          <router-link to="/womens" class="shop-cta-link">
+            <button class="shop-cta-btn">Shop Womens</button>
+          </router-link>
+          <router-link to="/mens" class="shop-cta-link">
+            <button class="shop-cta-btn">Shop Mens</button>
+          </router-link>
+          <router-link to="/kids" class="shop-cta-link">
+            <button class="shop-cta-btn">Shop Kids</button>
+          </router-link>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -32,8 +42,8 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
 .home {
   position: relative;
-  max-width: 1500px;
-  margin: 0 auto;
+  /* max-width: 1500px; */
+  /* margin: 0 auto; */
 }
 .header-banner-img {
   width: 100%;
@@ -48,12 +58,18 @@ export default {
 .shop-cta-btn {
   text-transform: uppercase;
   font-size: 2rem;
-  border: 1px solid grey;
+  border: 1px solid #a7a5a1;
   background-color: #000;
   color: #fff;
   padding: 0.5rem 2rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   cursor: pointer;
+  width: 100%;
+}
+.shop-cta-btn:hover {
+  background-color: #a7a5a1;
+  border: 1px solid #a7a5a1;
+  transition: 0.3s;
 }
 
 .header-banner-text {
@@ -61,5 +77,16 @@ export default {
   font-size: 3rem;
   font-weight: 500;
   transform: rotate(-20deg);
+}
+
+.home-page-cta-btn-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.shop-cta-link {
+  /* width: 100%; */
 }
 </style>
