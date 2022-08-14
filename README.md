@@ -33,7 +33,7 @@ git clone https://github.com/jonp2020/shoe-site.git
 npm install
 ```
 
-3. Then cd into the Client folder and also install any dependencies, too. 
+3. Then cd into the Client folder and also install any dependencies, too, with the same command: 
 ```
 npm install
 ```
