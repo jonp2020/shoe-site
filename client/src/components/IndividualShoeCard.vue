@@ -190,7 +190,6 @@ export default {
       this.updatedCart = true;
     },
     minusQuantity() {
-      console.warn("here in minus");
       if (this.selectedQuantity === 0) return;
       if (!this.quantityAvailable) return;
 
