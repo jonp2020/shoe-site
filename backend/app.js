@@ -11,6 +11,13 @@ app.use(cors());
 app.use("/api/shoes", require("./routes/shoes"));
 app.use("/api/track-orders", require("./routes/trackOrders"));
 
-app.all("/*", handleInvalidPath);
+// Handle production
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(`${__dirname}/public/`));
+
+  app.get(/.*/, (req, res) => res.sendFile(__dirname + "/public/index.html"));
+}
+
+// app.all("/*", handleInvalidPath);
 
 module.exports = app;
