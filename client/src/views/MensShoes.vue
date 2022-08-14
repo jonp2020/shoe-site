@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     async getMensShoes() {
-      const url = "http://localhost:4000/api/shoes/mens";
+      const url = "api/shoes/mens";
       const { data } = await axios.get(url);
 
       this.shoes = data;

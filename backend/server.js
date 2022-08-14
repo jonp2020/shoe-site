@@ -5,6 +5,11 @@ const port = process.env.PORT || 4000;
 
 connectDB();
 
+// Handle production
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(`${__dirname}/public`));
+}
+
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });

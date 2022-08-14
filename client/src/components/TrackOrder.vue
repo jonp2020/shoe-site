@@ -136,7 +136,7 @@ export default {
   methods: {
     async onSubmit() {
       this.errorMessage = false;
-      const url = "http://localhost:4000/api/track-orders";
+      const url = "api/track-orders";
 
       const dataObj = {};
       dataObj.orderRef = this.orderRef;

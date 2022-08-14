@@ -67,7 +67,7 @@ export default {
       this.paymentOrderingLoading = true;
       const paymentInfo = paymentData;
 
-      const url = "http://localhost:4000/api/shoes/place-order";
+      const url = "api/shoes/place-order";
 
       const data = await axios.post(url, {
         deliveryAddress: this.completedAddressInfo,

@@ -1,0 +1,1310 @@
+{
+  "shoes": [
+    {
+      "name": "Nike React Infinity Run Flyknit",
+      "brand": "NIKE",
+      "gender": "MEN",
+      "category": "RUNNING",
+      "colours": ["black", "white"],
+      "price": 160,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        },
+        "white": {
+          "6": 1,
+          "6_5": 8,
+          "7": 7,
+          "7_5": 3,
+          "8": 5,
+          "8.5": 6,
+          "9": 2,
+          "9_5": 11,
+          "10": 7,
+          "10_5": 1,
+          "11": 3,
+          "12": 0
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b5856282-b8a1-4d21-ac52-0c30a7b6be56/react-infinity-run-flyknit-3-road-running-shoes-Pp5hlk.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/33c78145-8e09-42fd-89b4-89fcd4aa893d/react-infinity-run-flyknit-3-road-running-shoes-Pp5hlk.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/17bef034-3a34-4db7-bb5c-90488d936e07/react-infinity-run-flyknit-3-road-running-shoes-Pp5hlk.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/5204c1b8-de9c-4bea-b50a-0c2e62857384/react-infinity-run-flyknit-3-road-running-shoes-Pp5hlk.png"
+        ],
+        "white": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/5a28e397-d083-4398-b0d9-a9911ae22018/react-infinity-run-flyknit-3-road-running-shoes-Pp5hlk.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/aff84436-35c5-4ecc-9774-a4638610fef3/react-infinity-run-flyknit-3-road-running-shoes-Pp5hlk.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/c44f5879-48c5-4b3a-a4a6-5274ed6c4dd7/react-infinity-run-flyknit-3-road-running-shoes-Pp5hlk.png"
+        ]
+      },
+      "featured": 0
+    },
+    {
+      "name": "Nike React Miler",
+      "brand": "NIKE",
+      "gender": "MEN",
+      "category": "RUNNING",
+      "colours": ["black"],
+      "price": 130,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 1,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 4,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/a50d62bd-5802-47cd-8952-31e746332ecc/react-miler-2-road-running-shoes-HzpXdn.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/23a7f892-be4c-4aae-b4f7-dea0e9825bc4/react-miler-2-road-running-shoes-HzpXdn.png"
+        ]
+      },
+      "featured": 1
+    },
+    {
+      "name": "Nike Air Zoom Pegasus 37",
+      "brand": "NIKE",
+      "gender": "WOMEN",
+      "category": "RUNNING",
+      "colours": ["white"],
+      "price": 120,
+      "sizes_availability": {
+        "white": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "white": [
+          "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-33b0a0a5-c171-46cc-ad20-04a768703e47/air-zoom-pegasus-37-womens-running-shoe-Jl0bDf.jpg"
+        ]
+      },
+      "slug": "nike-air-zoom-pegasus-37",
+      "featured": 0
+    },
+    {
+      "id": 4,
+      "name": "Nike Joyride Run Flyknit",
+      "brand": "NIKE",
+      "gender": "WOMEN",
+      "category": "RUNNING",
+      "colours": ["pink", "purple"],
+      "price": 180,
+      "sizes_availability": {
+        "pink": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "purple": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "pink": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/6d1e899a-c631-4ed8-97a6-6447fe85c665/react-infinity-run-flyknit-3-womens-road-running-shoes-XpNmlR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/80d5ef0d-226d-4e92-a936-13188ea02e48/react-infinity-run-flyknit-3-womens-road-running-shoes-XpNmlR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/5b9ff7d6-9927-411b-a86b-436f4be8cc93/react-infinity-run-flyknit-3-womens-road-running-shoes-XpNmlR.png"
+        ],
+        "purple": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/fe718352-07ae-4523-97cd-d4eee21bb887/react-infinity-run-flyknit-3-womens-road-running-shoes-XpNmlR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/a7e81bb5-6f2d-4cc5-b524-bdb3f1e3dc94/react-infinity-run-flyknit-3-womens-road-running-shoes-XpNmlR.png"
+        ]
+      },
+      "featured": 0
+    },
+    {
+      "id": 5,
+      "name": "Nike Mercurial Vapor 13 Elite FG",
+      "brand": "NIKE",
+      "gender": "WOMEN",
+      "category": "FOOTBALL",
+      "colours": ["yellow", "black"],
+      "price": 250,
+      "sizes_availability": {
+        "yellow": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "black": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "yellow": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/bf0e7695-55b2-4289-90cc-c192d9fd8293/zoom-mercurial-vapor-15-elite-fg-football-boot-CrVgjw.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/3fbf7e25-b316-44f3-a58d-761285c12f39/zoom-mercurial-vapor-15-elite-fg-football-boot-CrVgjw.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/eb86efce-d909-460c-b30f-2f95739df0e4/zoom-mercurial-vapor-15-elite-fg-football-boot-CrVgjw.png"
+        ],
+        "black": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/ad8efc1c-fd2f-4128-9213-6126d366966d/zoom-mercurial-vapor-15-elite-fg-football-boot-CrVgjw.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ed3f5b2e-97e4-47f1-9812-e28524191baa/zoom-mercurial-vapor-15-elite-fg-football-boot-CrVgjw.png"
+        ]
+      },
+      "featured": 0
+    },
+    {
+      "id": 6,
+      "name": "Nike Phantom Vision Elite Dynamic Fit FG",
+      "brand": "NIKE",
+      "gender": "WOMEN",
+      "category": "FOOTBALL",
+      "colours": ["blue", "orange"],
+      "price": 150,
+      "sizes_availability": {
+        "blue": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "orange": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "blue": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/908505e3-6a1a-4cf8-b7a5-5b20981168de/phantom-gt2-elite-fg-football-boot-CbSK2V.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/92bae671-f2f4-4b2b-ba7f-419aa1c8d395/phantom-gt2-elite-fg-football-boot-CbSK2V.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e5d1decd-96b8-4322-ad55-545cc1242bb1/phantom-gt2-elite-fg-football-boot-CbSK2V.png"
+        ],
+        "orange": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/18e1e106-d83d-4c39-998d-8c38289320b2/phantom-gt2-elite-fg-football-boot-CbSK2V.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f0084a3c-4cbb-41ce-a96c-2340eee676b7/phantom-gt2-elite-fg-football-boot-CbSK2V.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/722e8d3d-8cf9-47cb-840a-19368e420f31/phantom-gt2-elite-fg-football-boot-CbSK2V.png"
+        ]
+      },
+      "featured": 0
+    },
+    {
+      "id": 7,
+      "name": "Nike Phantom Venom Academy FG",
+      "brand": "NIKE",
+      "gender": "WOMEN",
+      "category": "FOOTBALL",
+      "colours": ["pink"],
+      "price": 80,
+      "sizes_availability": {
+        "pink": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "pink": [
+          "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/whegph8z9ornhxklc8rp/phantom-venom-academy-fg-firm-ground-soccer-cleat-6JVNll.jpg"
+        ]
+      },
+      "slug": "nike-phantom-venom-academy-fg",
+      "featured": 0
+    },
+    {
+      "id": 8,
+      "name": "Nike Zoom Mercurial Superfly 9 Elite FG",
+      "brand": "NIKE",
+      "gender": "MEN",
+      "category": "FOOTBALL",
+      "colours": ["yellow", "black"],
+      "price": 220,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        },
+        "yellow": {
+          "6": 1,
+          "6_5": 8,
+          "7": 7,
+          "7_5": 3,
+          "8": 5,
+          "8_5": 6,
+          "9": 2,
+          "9_5": 11,
+          "10": 7,
+          "10_5": 1,
+          "11": 3,
+          "12": 0
+        }
+      },
+      "imageURL": {
+        "yellow": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/9f22e494-8110-404b-8616-f483163e0aec/zoom-mercurial-superfly-9-elite-fg-football-boot-Mxkh41.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/d7dc04d2-319a-418a-8411-5c83fac693af/zoom-mercurial-superfly-9-elite-fg-football-boot-Mxkh41.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cff79401-941e-43b9-8266-1ad7cf47d7fd/zoom-mercurial-superfly-9-elite-fg-football-boot-Mxkh41.png"
+        ],
+        "black": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/8187812a-4152-4b8e-bce6-476197d3fda0/zoom-mercurial-superfly-9-elite-fg-football-boot-Mxkh41.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/41b3504d-e3db-42c6-8178-600ed6bc3398/zoom-mercurial-superfly-9-elite-fg-football-boot-Mxkh41.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0ec1f7f8-a1ba-43be-9568-515f2985aefe/zoom-mercurial-superfly-9-elite-fg-football-boot-Mxkh41.png"
+        ]
+      },
+      "slug": "nike-mercurial-vapor-13-elite-tech-craft-fg",
+      "featured": 0
+    },
+    {
+      "id": 9,
+      "name": "Nike Tiempo Legend 9 Academy MG",
+      "brand": "NIKE",
+      "gender": "MEN",
+      "category": "FOOTBALL",
+      "colours": ["black", "red"],
+      "price": 90,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        },
+        "red": {
+          "6": 1,
+          "6_5": 8,
+          "7": 7,
+          "7_5": 3,
+          "8": 5,
+          "8_5": 6,
+          "9": 2,
+          "9_5": 11,
+          "10": 7,
+          "10_5": 1,
+          "11": 3,
+          "12": 0
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/ac141360-dc12-492d-8cda-92690e2b2bc6/tiempo-legend-9-academy-mg-multi-ground-football-boot-9CG8kR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/d71aade7-f538-4d14-8f5c-b16bd81860de/tiempo-legend-9-academy-mg-multi-ground-football-boot-9CG8kR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/97d6ec89-f701-4569-a5e9-be8784f4c12f/tiempo-legend-9-academy-mg-multi-ground-football-boot-9CG8kR.png"
+        ],
+        "red": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b734e568-af36-4a16-a763-658a5ea645ec/tiempo-legend-9-academy-mg-multi-ground-football-boot-9CG8kR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b1dc58f2-1fa7-48ab-aa44-0d4495d8ff43/tiempo-legend-9-academy-mg-multi-ground-football-boot-9CG8kR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ac95d566-e849-434c-9999-130e57715e2b/tiempo-legend-9-academy-mg-multi-ground-football-boot-9CG8kR.png"
+        ]
+      },
+      "slug": "nike-mercurial-superfly-7-pro-mds-fg",
+      "featured": 0
+    },
+    {
+      "id": 10,
+      "name": "Nike Air Force 1",
+      "brand": "NIKE",
+      "gender": "KIDS",
+      "category": "CASUAL",
+      "colours": ["white", "yellow"],
+      "price": 90,
+      "sizes_availability": {
+        "yellow": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        },
+        "white": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "yellow": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4afd72cb-f61a-4f7f-8306-48982ebfbe58/air-force-1-lv8-older-shoes-mFgg11.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/baae75a5-ac35-4558-a2cb-2658c18f75e2/air-force-1-lv8-older-shoes-mFgg11.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/bfdc2046-4baf-4c85-91b7-12d4b32ea612/air-force-1-lv8-older-shoes-mFgg11.png"
+        ],
+        "white": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2573cf96-27b4-429b-b897-5f8659c1d782/air-force-1-lv8-older-shoes-mFgg11.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/c59aa192-018f-443a-8c38-537461f1a96e/air-force-1-lv8-older-shoes-mFgg11.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/2573cf96-27b4-429b-b897-5f8659c1d782/air-force-1-lv8-older-shoes-mFgg11.png"
+        ]
+      },
+      "slug": "nike-air-force-1",
+      "featured": 0
+    },
+    {
+      "id": 11,
+      "name": "Nike Air Max 90",
+      "brand": "NIKE",
+      "gender": "KIDS",
+      "category": "CASUAL",
+      "colours": ["night/navy"],
+      "price": 100,
+      "sizes_availability": {
+        "light/navy": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "light/navy": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e89d2e7e-cd58-4706-af72-200a041829fd/air-max-motif-older-shoe-gT3WNt.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e8032593-3be2-43c6-8a7c-8bc40c422d4d/air-max-motif-older-shoe-gT3WNt.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/13a28a23-6570-4f79-896a-4934f6517427/air-max-motif-older-shoe-gT3WNt.png"
+        ]
+      },
+      "slug": "nike-air-max-90",
+      "featured": 0
+    },
+    {
+      "id": 13,
+      "name": "Nike High Dunk",
+      "brand": "NIKE",
+      "gender": "KIDS",
+      "category": "CASUAL",
+      "colours": ["purple", "red"],
+      "price": 110,
+      "sizes_availability": {
+        "purple": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        },
+        "red": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "purple": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/8abbccbd-46da-4a8a-b8ab-76a7252e9034/dunk-high-little-kids-shoes-cFXGXR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/72ef286e-760f-4ac3-beea-a6037ed86c36/dunk-high-little-kids-shoes-cFXGXR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/f14bb7d1-1fab-4a80-a491-6e468b1cd1ad/dunk-high-little-kids-shoes-cFXGXR.png"
+        ],
+        "red": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/fca5f15c-162b-4737-bc42-21bd0933140a/dunk-high-little-kids-shoes-cFXGXR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/65310672-d324-4171-99f1-d54d321b33f7/dunk-high-little-kids-shoes-cFXGXR.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/48598c2f-3cb0-43be-a851-01251cea7e3e/dunk-high-little-kids-shoes-cFXGXR.png"
+        ]
+      },
+      "featured": 0
+    },
+    {
+      "id": 14,
+      "name": "Nike Revolution 6",
+      "brand": "NIKE",
+      "gender": "KIDS",
+      "category": "RUNNING",
+      "colours": ["pink", "grey"],
+      "price": 80,
+      "sizes_availability": {
+        "pink": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        },
+        "grey": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "pink": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/48493960-33bb-4ceb-82b5-aebc430d9a67/revolution-6-little-kids-shoes-4zP8Xb.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/80d02442-d6b0-49d4-9a03-1fad6160175d/revolution-6-little-kids-shoes-4zP8Xb.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/fb0b80de-979e-4235-8bac-b977fb1ee45f/revolution-6-little-kids-shoes-4zP8Xb.png"
+        ],
+        "grey": [
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/fe18ecb7-f99e-4af1-ad1a-33abba05ad74/revolution-6-little-kids-shoes-4zP8Xb.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/f92ee553-4d82-4db9-b8e9-fd8f76658c62/revolution-6-little-kids-shoes-4zP8Xb.png",
+          "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/b26bf385-f506-4e5e-9dd7-8c99aeeb035d/revolution-6-little-kids-shoes-4zP8Xb.png"
+        ]
+      },
+      "slug": "nike-renew-run",
+      "featured": 0
+    },
+    {
+      "id": 16,
+      "name": "Bridgport Advice",
+      "brand": "HUSHPUPPIES",
+      "gender": "MEN",
+      "category": "FORMAL",
+      "colours": ["brown"],
+      "price": 30,
+      "sizes_availability": {
+        "brown": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        }
+      },
+      "imageURL": {
+        "brown": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1922.jpg?v=1615373799",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1924.jpg?v=1615373799",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1928.jpg?v=1615373818"
+        ]
+      },
+      "slug": "bridgport-advice",
+      "featured": 1
+    },
+    {
+      "id": 15,
+      "name": "Leon",
+      "brand": "HUSHPUPPIES",
+      "gender": "MEN",
+      "category": "FORMAL",
+      "colours": ["black"],
+      "price": 80,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Leon-SabihaBlack_3.jpg?v=1616060288",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Leon-SabihaBlack_5.jpg?v=1616060288",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Leon-SabihaBlack_6.jpg?v=1616060288"
+        ]
+      },
+      "slug": "beck",
+      "featured": 0
+    },
+    {
+      "id": 17,
+      "name": "Ivan Banker",
+      "brand": "HUSHPUPPIES",
+      "gender": "MEN",
+      "category": "FORMAL",
+      "colours": ["black", "brown"],
+      "price": 70,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        },
+        "brown": {
+          "6": 1,
+          "6_5": 8,
+          "7": 7,
+          "7_5": 3,
+          "8": 5,
+          "8_5": 6,
+          "9": 2,
+          "9_5": 11,
+          "10": 7,
+          "10_5": 1,
+          "11": 3,
+          "12": 0
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1836.jpg?v=1613640924",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1839.jpg?v=1614149728"
+        ],
+        "brown": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2148.jpg?v=1613640924",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2143.jpg?v=1613640924"
+        ]
+      },
+      "slug": "ivan-banker",
+      "featured": 0
+    },
+    {
+      "id": 20,
+      "name": "Harper",
+      "brand": "HUSHPUPPIES",
+      "gender": "WOMEN",
+      "category": "FORMAL",
+      "colours": ["black", "red"],
+      "price": 30,
+      "sizes_availability": {
+        "black": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "red": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_8250.jpg?v=1641549189",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_8252_cb8de245-97d8-4f78-b382-3f8c51be92e0.jpg?v=1641549189"
+        ],
+        "red": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_8255.jpg?v=1641549237",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_8257.jpg?v=1641549251",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_8261.jpg?v=1641549277"
+        ]
+      },
+      "slug": "harpers",
+      "featured": 0
+    },
+    {
+      "id": 21,
+      "name": "SS-PM-0109",
+      "brand": "HUSHPUPPIES",
+      "gender": "WOMEN",
+      "category": "FORMAL",
+      "colours": ["yellow", "brown"],
+      "price": 50,
+      "sizes_availability": {
+        "yellow": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "brown": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "yellow": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_6279.jpg?v=1636978597",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_6281.jpg?v=1636978598",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_6285.jpg?v=1636978598"
+        ],
+        "brown": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_6258.jpg?v=1636978548",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_6260.jpg?v=1636978548",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_6264.jpg?v=1636978548"
+        ]
+      },
+      "slug": "ss-pm-0109",
+      "featured": 0
+    },
+    {
+      "id": 22,
+      "name": "SS-HL-0128",
+      "brand": "HUSHPUPPIES",
+      "gender": "WOMEN",
+      "category": "FORMAL",
+      "colours": ["beige", "black"],
+      "price": 35,
+      "sizes_availability": {
+        "black": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "beige": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "beige": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1932.jpg?v=1656587539",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1938_e4efd152-2127-4801-b9c1-298f1096d484.jpg?v=1656587540",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_1939.jpg?v=1656587539"
+        ],
+        "black": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2000_38fb270e-d538-4807-9006-88105147e205.jpg?v=1656587561",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2002_7a138317-3a61-4705-9964-6be0e7587159.jpg?v=1656587561",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2006.jpg?v=1656587561"
+        ]
+      },
+      "slug": "ss-hl-0128",
+      "featured": 0
+    },
+    {
+      "id": 25,
+      "name": "Bling",
+      "brand": "HUSHPUPPIES",
+      "gender": "WOMEN",
+      "category": "CASUAL",
+      "colours": ["yellow", "green"],
+      "price": 30,
+      "sizes_availability": {
+        "yellow": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "green": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "yellow": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2080_e8636eac-228a-45a0-817a-2df784403930.jpg?v=1656584649",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2081.jpg?v=1656584650"
+        ],
+        "green": [
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2063.jpg?v=1656584632",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2065.jpg?v=1656584631",
+          "https://cdn.shopify.com/s/files/1/0016/0074/9623/products/IMG_2069_b0bfc424-0ea0-4465-91a1-4b1279d61613.jpg?v=1656584631"
+        ]
+      },
+      "slug": "bling",
+      "featured": 0
+    },
+    {
+      "id": 26,
+      "name": "Nizza Goofy Disney",
+      "brand": "ADIDAS",
+      "gender": "KIDS",
+      "category": "CASUAL",
+      "colours": ["black"],
+      "price": 55,
+      "sizes_availability": {
+        "black": {
+          "2": 1,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 0,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2e219f437b6946779c1dab96016cfa4c_9366/Nizza_x_Disney_Sport_Goofy_Shoes_Black_FW9590_06_standard.jpg",
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/03c04a8e38094ad594bcab960167cdee_9366/Nizza_x_Disney_Sport_Goofy_Shoes_Black_FW9590_41_detail.jpg",
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8af96871d8404fd4be8cab96016e5f94_9366/Nizza_x_Disney_Sport_Goofy_Shoes_Black_FW9590_04_standard.jpg"
+        ]
+      },
+      "slug": "nizza-goofy-disney",
+      "featured": 0
+    },
+    {
+      "id": 27,
+      "name": "X_PLR",
+      "brand": "ADIDAS",
+      "gender": "KIDS",
+      "category": "CASUAL",
+      "colours": ["black", "white"],
+      "price": 65,
+      "sizes_availability": {
+        "black": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        },
+        "white": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5e19ff5f718545fd8de1a83a0125a53c_9366/X_PLR_Shoes_Black_CQ2405_06_standard.jpg",
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6c89e00712f14f4b800ba83a0125bd51_9366/X_PLR_Shoes_Black_CQ2405_04_standard.jpg",
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c68970dc89ee4217beb3a83a01259c66_9366/X_PLR_Shoes_Black_CQ2405_01_standard.jpg"
+        ],
+        "white": [
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9ea07d6c02f442fa8db0a82a01244044_9366/X_PLR_Shoes_White_CQ2406_01_standard.jpg",
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9ddc82535ddc4b14895aa82a01244f23_9366/X_PLR_Shoes_White_CQ2406_02_standard_hover.jpg",
+          "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/527b827132164b6bb7c1a82a012468ef_9366/X_PLR_Shoes_White_CQ2406_05_standard.jpg"
+        ]
+      },
+      "slug": "x_plr",
+      "featured": 1
+    },
+    {
+      "id": 28,
+      "name": "Stan Smith",
+      "brand": "ADIDAS",
+      "gender": "KIDS",
+      "category": "CASUAL",
+      "price": 55,
+      "sizes_availability": {
+        "white": {
+          "2": 3,
+          "2_5": 6,
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 1,
+          "5_5": 6,
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 7,
+          "9_5": 0,
+          "10": 1,
+          "10_5": 3,
+          "11": 4,
+          "12": 5
+        }
+      },
+      "imageURL": {
+        "white": [
+          "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a60a136c5ac444daf5aac1d010779b0_9366/FX7534_01_standard.jpg"
+        ]
+      },
+      "slug": "stan-smith",
+      "featured": 0
+    },
+    {
+      "id": 33,
+      "name": "SK8-HI",
+      "brand": "Vans",
+      "gender": "WOMEN",
+      "category": "CASUAL",
+      "colours": ["black", "blue"],
+      "price": 60,
+      "sizes_availability": {
+        "black": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "blue": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://images.vans.com/is/image/VansEU/VN000D5IB8C-HERO?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN000D5IB8C-ALT1?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN000D5IB8C-ALT6?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0"
+        ],
+        "blue": [
+          "https://images.vans.com/is/image/VansEU/VN000D5INVY-HERO?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN000D5INVY-ALT1?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN000D5INVY-ALT6?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0"
+        ]
+      },
+      "slug": "sk8-hi",
+      "featured": 0
+    },
+    {
+      "id": 33,
+      "name": "SK8-HI TAPERED STACKFORM",
+      "brand": "Vans",
+      "gender": "WOMEN",
+      "category": "CASUAL",
+      "colours": ["grey", "multi-color"],
+      "price": 60,
+      "sizes_availability": {
+        "grey": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        },
+        "beige": {
+          "3": 3,
+          "3_5": 2,
+          "4": 4,
+          "4_5": 5,
+          "5": 7,
+          "5_5": 6,
+          "6": 1,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 0
+        }
+      },
+      "imageURL": {
+        "grey": [
+          "https://images.vans.com/is/image/VansEU/VN0A5JMKB7D-HERO?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A5JMKB7D-ALT1?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A5JMKB7D-ALT6?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0"
+        ],
+        "multi-color": [
+          "https://images.vans.com/is/image/VansEU/VN0A5JMKKPL-HERO?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A5JMKKPL-ALT1?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A5JMKKPL-ALT6?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0"
+        ]
+      },
+      "slug": "sk8-ti-tapered-stackform",
+      "featured": 0
+    },
+    {
+      "id": 33,
+      "name": "SK80-Low",
+      "brand": "Vans",
+      "gender": "MEN",
+      "category": "CASUAL",
+      "colours": ["black", "green"],
+      "price": 60,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        },
+        "green": {
+          "6": 1,
+          "6_5": 8,
+          "7": 7,
+          "7_5": 3,
+          "8": 5,
+          "8_5": 6,
+          "9": 2,
+          "9_5": 11,
+          "10": 7,
+          "10_5": 1,
+          "11": 3,
+          "12": 0
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://images.vans.com/is/image/VansEU/VN0A4UUK6BT-HERO?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A4UUK6BT-ALT1?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A4UUK6BT-ALT6?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0"
+        ],
+        "green": [
+          "https://images.vans.com/is/image/VansEU/VN0A4UUKB7P-HERO?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A4UUKB7P-ALT1?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A4UUKB7P-ALT6?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0"
+        ]
+      },
+      "slug": "sk80-low",
+      "featured": 0
+    },
+    {
+      "id": 34,
+      "name": "Michael Feburary SK8-Hi",
+      "brand": "Vans",
+      "gender": "MEN",
+      "category": "CASUAL",
+      "colours": ["black"],
+      "price": 72,
+      "sizes_availability": {
+        "black": {
+          "6": 8,
+          "6_5": 6,
+          "7": 8,
+          "7_5": 5,
+          "8": 9,
+          "8_5": 6,
+          "9": 0,
+          "9_5": 8,
+          "10": 4,
+          "10_5": 3,
+          "11": 1,
+          "12": 1
+        }
+      },
+      "imageURL": {
+        "black": [
+          "https://images.vans.com/is/image/VansEU/VN0A3MV122M-HERO?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A3MV122M-ALT1?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0",
+          "https://images.vans.com/is/image/VansEU/VN0A3MV122M-ALT2?wid=800&hei=800&fmt=jpg&qlt=85,1&op_sharpen=0&resMode=sharp2&op_usm=1,1,1,0"
+        ]
+      },
+      "slug": "michael-feburary-sk8-hi",
+      "featured": 0
+    }
+  ]
+}
