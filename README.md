@@ -15,6 +15,7 @@ A version of the web app is deployed [here](https://rocky-waters-20841.herokuapp
 - Mongoose
 - Vue 3
 - Bootstrap for styling forms
+- Jest for some backend api route testing
 
 ## Getting Started
 
