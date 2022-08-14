@@ -10,17 +10,18 @@
         <p class="header-banner-text">
           Good shoes <br />take you <br />good places
         </p>
-        <div class="home-page-cta-btn-container">
-          <router-link to="/womens" class="shop-cta-link">
-            <button class="shop-cta-btn">Shop Womens</button>
-          </router-link>
-          <router-link to="/mens" class="shop-cta-link">
-            <button class="shop-cta-btn">Shop Mens</button>
-          </router-link>
-          <router-link to="/kids" class="shop-cta-link">
-            <button class="shop-cta-btn">Shop Kids</button>
-          </router-link>
-        </div>
+      </div>
+
+      <div class="home-page-cta-btn-container">
+        <router-link to="/womens" class="shop-cta-link">
+          <button class="shop-cta-btn">Shop Womens</button>
+        </router-link>
+        <router-link to="/mens" class="shop-cta-link">
+          <button class="shop-cta-btn">Shop Mens</button>
+        </router-link>
+        <router-link to="/kids" class="shop-cta-link">
+          <button class="shop-cta-btn">Shop Kids</button>
+        </router-link>
       </div>
     </div>
   </section>
@@ -32,9 +33,7 @@
 
 export default {
   name: "HomeView",
-  components: {
-    // HelloWorld,
-  },
+  components: {},
 };
 </script>
 
@@ -74,19 +73,51 @@ export default {
 
 .header-banner-text {
   font-family: "Calligraffitti", cursive;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 500;
   transform: rotate(-20deg);
 }
 
 .home-page-cta-btn-container {
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
 .shop-cta-link {
   /* width: 100%; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .shop-cta-btn {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .header-banner-message-container {
+    left: 12%;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .header-banner-text {
+    font-size: 3rem;
+  }
+  .shop-cta-btn {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 655px) {
+  .home-page-cta-btn-container {
+  }
+}
+@media only screen and (max-width: 550px) {
+  .header-banner-text {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .header-banner-message-container {
+    top: 5%;
+    left: 13%;
+  }
 }
 </style>

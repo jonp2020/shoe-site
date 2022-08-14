@@ -64,7 +64,6 @@ export default {
       this.deliveryCompleted = true;
     },
     async paymentDetailsComplete(paymentData) {
-      console.log("here in payment");
       this.paymentOrderingLoading = true;
       const paymentInfo = paymentData;
 
@@ -77,8 +76,7 @@ export default {
       });
 
       if (data.status === 200) {
-        console.log("data", data);
-        this.$store.state.resetBasket;
+        this.$store.commit("resetBasket");
 
         this.paymentOrderingLoading = false;
 
@@ -99,6 +97,7 @@ export default {
 .checkout-progressbar {
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 .checkout-progressbar li {
   list-style-type: none;

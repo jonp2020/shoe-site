@@ -50,7 +50,6 @@
         {{ colourIndex === displayShoeColours.length - 1 ? "" : " | " }}
       </span>
     </p>
-    <hr />
   </div>
 </template>
 
@@ -68,6 +67,7 @@ export default {
     setImageToDisplay(colour) {
       this.shoeImageToDisplay = this.shoe.imageURL[colour][0];
     },
+    setIndivdualShoe() {},
   },
   computed: {
     getSlug() {
@@ -136,5 +136,11 @@ export default {
   margin: 0 0.2rem;
   border: 1px solid #d8d4d4;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+  .main-shoe-img {
+    width: 75%;
+  }
 }
 </style>

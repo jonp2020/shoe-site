@@ -253,6 +253,14 @@ export default {
       this.selectedColour = this.shoeColours[0];
       this.shoeImageToDisplay =
         this.parsedShoe.imageURL[this.selectedColour][0];
+      this.$store.commit("addToIndividualShoe", this.parsedShoe);
+    } else {
+      this.parsedShoe = this.$store.getters.getIndividualShoe[0];
+      const colourKeys = Object.keys(this.parsedShoe.imageURL);
+      this.shoeColours = colourKeys;
+      this.selectedColour = this.shoeColours[0];
+      this.shoeImageToDisplay =
+        this.parsedShoe.imageURL[this.selectedColour][0];
     }
   },
 };
@@ -270,7 +278,7 @@ export default {
 .small-img-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .main-img {
@@ -487,5 +495,45 @@ export default {
 .cartModal-enter-active,
 .cartModal-leave-to {
   transition: opacity 0.75s ease;
+}
+
+@media only screen and (max-width: 900px) {
+  .cart-item-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-item-info-text {
+    text-align: center;
+  }
+  .continue-to-cart-btn {
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .small-img-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .small-shoe-img {
+    width: 20%;
+  }
+  .main-img {
+    width: 50%;
+  }
+  .main-images-container {
+    order: 2;
+    margin: 1rem 0;
+  }
+  .sizes-container {
+    order: 3;
+  }
+  .add-to-cart-btn {
+    order: 4;
+  }
 }
 </style>

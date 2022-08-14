@@ -145,8 +145,6 @@ export default {
 
       const data = await axios.post(url, dataObj);
 
-      console.log(data.data);
-
       if (data.status === 200) {
         this.orderDetails = data.data[0];
         this.itemsOrdered = JSON.parse(this.orderDetails.itemsOrdered);

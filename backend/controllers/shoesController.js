@@ -69,9 +69,6 @@ const placeOrder = asyncHandler(async (req, res) => {
   const { deliveryAddress, paymentDetails, orderDetails } = req.body;
 
   // Update shoe quantities in stock
-
-  console.log(orderDetails);
-
   for (orderItem of orderDetails) {
     const shoe = await Shoe.findByIdAndUpdate(
       {

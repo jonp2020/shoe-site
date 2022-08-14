@@ -163,4 +163,10 @@ label {
   color: #000;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 550px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+}
 </style>

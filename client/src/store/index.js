@@ -3,10 +3,14 @@ import { createStore } from "vuex";
 export default createStore({
   state: {
     basketItems: [],
+    individualShoe: [],
   },
   getters: {
     getBasketItems(state) {
       return state.basketItems;
+    },
+    getIndividualShoe(state) {
+      return state.individualShoe;
     },
   },
   mutations: {
@@ -15,6 +19,10 @@ export default createStore({
     },
     resetBasket(state) {
       state.basketItems = [];
+    },
+    addToIndividualShoe(state, item) {
+      state.individualShoe.pop();
+      state.individualShoe.push(item);
     },
   },
   actions: {},
