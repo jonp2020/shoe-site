@@ -8,6 +8,14 @@ The front end is built with Vue 3 using the create Vue app client. It enables us
 
 A version of the web app is deployed [here](https://rocky-waters-20841.herokuapp.com/).
 
+## Tools used
+- Node
+- Express
+- MongoDB
+- Mongoose
+- Vue 3
+- Bootstrap for styling forms
+
 ## Getting Started
 
 Follow the instructions below to get a local version up and running.
