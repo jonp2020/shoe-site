@@ -27,16 +27,22 @@ Follow the instructions below to get a local version up and running.
 ```
 git clone https://github.com/jonp2020/shoe-site.git
 ```
-2. Next, navigate into the folder where you have cloned the repo and install the dependencies:
 
+2. Next, navigate into the folder where you have cloned the repo and install the dependencies at the root level :
 ```
 npm install
 ```
-3. You will need to set up a MongoDB database with dummy data. In the backend folder in the repo you have cloned above, there is an example of data for a list of shoes objects in the Data folder which you can use by adding to a MongoDB cluster you have set up.
 
-4. These instructions from MongoDB's website are useful in setting up a database: https://www.mongodb.com/developer/products/atlas/use-atlas-on-heroku/. In addition you will need to add a connection string to the MongoDB in your .env file in order to connect to the database.
+3. Then cd into the Client folder and also install any dependencies, too. 
+```
+npm install
+```
 
-5. In order to run the app on your machine, run the following commands in separate terminal windows which will start the backend server and front end server respectively:
+4. You will need to set up a MongoDB database with dummy data. In the backend folder in the repo you have cloned above, there is an example of data for a list of shoes objects in the Data folder which you can use by adding to a MongoDB cluster you have set up.
+
+5. These instructions from MongoDB's website are useful in setting up a database: https://www.mongodb.com/developer/products/atlas/use-atlas-on-heroku/. In addition you will need to add a connection string to the MongoDB in your .env file in order to connect to the database.
+
+6. In order to run the app on your machine, run the following commands in separate terminal windows which will start the backend server and front end server respectively:
 
 ```
 npm run dev
@@ -44,4 +50,4 @@ npm run dev
 ```
 npm run serve
 ```
-6. Enjoy!
+7. Enjoy!
